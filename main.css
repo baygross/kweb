@@ -1,0 +1,100 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, img, p{
+	margin:0px;
+	border:none;
+	padding:0px;
+	font-weight:inherit;
+}
+
+body{
+	font-family:"helvetica neue";
+	font-weight:100;
+}
+
+a{
+	text-decoration: none;
+	color:#424242;
+}
+a:hover{
+	color:#F2C205;
+}
+
+#content{
+	width:200px;
+	margin:120px auto;
+}
+
+h1{
+	padding:72px 6px 4px 6px;
+	background-color:#B9E3BB;
+	color:#FFF;
+	vertical-align: bottom;
+	font-size:36px;
+}
+
+h2{
+	padding:4px;
+	margin-bottom:45px;
+	color:#4D4D4D;
+	font-size:16px;
+}
+
+li{
+	margin:6px 0px;
+	font-size:16px;
+	list-style-type:none;
+	background-color:#fff;
+}
+
+
+/* Mario Code */
+/* ********** */
+
+#background {
+	width : 100%;
+	height : 100%;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	overflow-x : hidden;
+	z-index : -1;
+	display:none;
+}
+
+#background .level {
+	height : 232px;
+	width : 3392px;
+	position : absolute;
+	bottom : 0px;
+	left : 0px;
+	background-image : url(./mariobackground.png);
+/*	overflow-x : hidden;*/
+}
+
+#background .overlay {
+	width : 3392px;
+	height : 100%;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+}
+
+#background .mario-sprite {
+	width : 16px;
+	height : 16px;
+	overflow : hidden;
+	position : absolute;
+	left : -999px;
+}
+
+
+#background .text-1 {
+	position : absolute;
+	left : 1650px;
+	top : -120px;
+}
+
+#background .text-2 {
+	position : absolute;
+	left : 3100px;
+	top : -180px;
+}
